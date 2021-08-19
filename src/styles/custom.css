@@ -1,0 +1,98 @@
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+.navbar ul {
+  float: left;
+  width: 100%;
+}
+
+.navbar ul li {
+  float: left;
+  list-style-type: none;
+  cursor: pointer;
+  /*color: #b1d4e0;*/
+  color: #fff;
+  margin: 2rem 1rem;
+  font-size: 2rem;
+}
+
+.navbar ul li:last-child {
+  float: right;
+}
+
+.my-button,
+.my-button:focus {
+  background-color: #145da0;
+  border-color: transparent;
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 0 1rem 0 1rem;
+}
+
+.my-button:hover {
+  background-color: #2e8bc0;
+  border-color: transparent;
+  transition: 100ms;
+}
+
+.my-button:active {
+  background-color: #2e8bc0;
+  border-color: transparent;
+  transform: translateY(0.1rem);
+}
+
+.header {
+  background-color: #0c2d48;
+  width: 100%;
+  height: 7.2rem;
+}
+
+.alert {
+  margin: 0;
+  background: #b1d4e0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0.75rem;
+}
+
+.alert p {
+  color: #0c2d48;
+}
+
+.alert button {
+  position: relative;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -5%);
+}
+
+.toast {
+  background-color: #db1f48;
+  float: right;
+}
+
+.toast ul {
+  float: left;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.toast ul li {
+  float: left;
+  list-style-type: none;
+  margin: 1rem;
+  color: aliceblue;
+}
+
+.toast ul li:last-child {
+  float: right;
+  cursor: pointer;
+  text-align: center;
+}
